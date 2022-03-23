@@ -25,3 +25,9 @@
   height: auto;
   padding-left: 1rem ;
 }
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
