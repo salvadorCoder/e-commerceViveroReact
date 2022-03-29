@@ -22,9 +22,9 @@ const ItemCounter = ({titulo2, valorInicial, stock}) => {
   return (
       <div>
         <p>{titulo2}</p>
-        <button onClick={restar}>-</button>
-        <span>{contador}</span>
-        <button onClick={sumar}>+</button>
+        <button onClick={restar}> - </button>
+        <span> {contador} </span>
+        <button onClick={sumar}> + </button>
         <button onClick={mostrar}>Agregar</button>
     </div>
   )
